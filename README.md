@@ -1,6 +1,6 @@
 <h1 style="text-align: center; margin: 0;">Flask API Model Depoloyment</h1>
-<h3 style="text-align: center; margin-top: 0;">Machine Learning Engineer - Takehome</h3>
-<p style="text-align: left;">The following model deployment is of a segmentation model.  It is a binary classifcation for whether a customer purchased a product (1 for purchase, 0 for no purchase) and trained on a client dataset. I trained the model, saving the object and fitted imputer/scaler/feature variables, and then created an API wrapper in Flask to allow end users to receive predictions on new data by calling the the "/predict" POST route. I implemented Swagger API documentation, created unit testing with strong coverage, and endeveared to follow strong code practice. The file requirements.txt shows the required dependencies for this project.</p>
+<h3 style="text-align: center; margin-top: 0;">Machine Learning Engineer Project</h3>
+<p style="text-align: left;">The following model deployment is of a segmentation model.  It is a binary classifcation for whether a customer purchased a product (1 for purchase, 0 for no purchase) and trained on a client dataset that will not be linked here. I trained the model, saving the object and fitted imputer/scaler/feature variables, and then created an API wrapper in Flask to allow end users to receive predictions on new data by calling the the "/predict" POST route. I implemented Swagger API documentation, created unit testing with strong coverage, and endeveared to follow strong code practice. The file requirements.txt shows the required dependencies for this project.</p>
 <hr>
 
 
