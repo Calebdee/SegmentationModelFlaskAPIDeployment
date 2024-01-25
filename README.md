@@ -8,12 +8,12 @@
 <p style="text-align: left;">To build the Docker image and immediately deploy the model at port 1313, run the startup bash script</p>
 
 ```bash
-./run_api.txt
+./run_api.sh
 ```
 
 ### Run unit tests, analyze coverage, and display results
 ```bash
-./run_tests.txt
+./run_tests.sh
 ```
 
 ### API endpoints
