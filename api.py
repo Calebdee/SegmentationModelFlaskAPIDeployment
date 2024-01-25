@@ -1,14 +1,10 @@
 from flask import Flask, request
 from flasgger import Swagger
 import logging
-
+import model_utils
 import pandas as pd
 import pickle
 import json
-
-with open("model_utils.txt", "r") as file:
-    codecontent = file.read()
-exec(codecontent)
 
 app = Flask(__name__)
 # Set up swagger object for API documentation at /apidocs

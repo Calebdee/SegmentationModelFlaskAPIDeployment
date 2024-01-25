@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 EXPOSE 1313
 
 # Run our API when the container launches
-CMD ["python", "api.txt"]
+CMD ["python", "api.py"]
